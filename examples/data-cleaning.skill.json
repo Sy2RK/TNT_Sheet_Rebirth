@@ -1,0 +1,11 @@
+{
+  "id": "data-cleaning-custom",
+  "name": "数据规范化",
+  "description": "去除多余空格并规范数字格式，同时保留编号、日期、公式和原有结构。",
+  "prompt": "清理选区中的首尾空格和重复空格，将格式明确的千分位数字文本转换为数值。保留前导零编号、日期、公式和原有结构，不删除数据。完成后说明处理范围。",
+  "enabled": true,
+  "tools": ["read_range", "clean_data", "set_format"],
+  "triggers": ["规范化数据"],
+  "slashCommand": "normalize",
+  "context": "selection"
+}

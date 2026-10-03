@@ -1,0 +1,424 @@
+{
+  "date": "2026-10-04",
+  "sample": {
+    "source": "Windows Microsoft Huihui synthetic speech",
+    "sampleRate": 16000,
+    "channels": 1,
+    "audioSeconds": 6.215,
+    "expected": "请把选中的单元格加粗，然后按销售金额降序排列。"
+  },
+  "streaming": [
+    {
+      "model": "qwen-audio-3.1-asr-flash-message",
+      "events": [
+        "task-started",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "task-finished"
+      ],
+      "partials": [
+        {
+          "text": "其",
+          "ms": 884
+        },
+        {
+          "text": "情",
+          "ms": 1084
+        },
+        {
+          "text": "请把",
+          "ms": 1577
+        },
+        {
+          "text": "请把选中",
+          "ms": 1945
+        },
+        {
+          "text": "请把选中的单",
+          "ms": 2144
+        },
+        {
+          "text": "请把选中的单元格",
+          "ms": 2548
+        },
+        {
+          "text": "请把选中的单元格加粗",
+          "ms": 2986
+        },
+        {
+          "text": "请把选中的单元格加粗。",
+          "ms": 3537
+        },
+        {
+          "text": "请把选中的单元格加粗。",
+          "ms": 3537
+        },
+        {
+          "text": "然",
+          "ms": 3744
+        },
+        {
+          "text": "然后",
+          "ms": 4185
+        },
+        {
+          "text": "然后按销",
+          "ms": 4621
+        },
+        {
+          "text": "然后按销售金",
+          "ms": 5062
+        },
+        {
+          "text": "然后按销售金额",
+          "ms": 5497
+        },
+        {
+          "text": "然后按销售金额降序",
+          "ms": 5934
+        },
+        {
+          "text": "然后按销售金额降序排列",
+          "ms": 6373
+        },
+        {
+          "text": "然后按销售金额降序排列。",
+          "ms": 6820
+        },
+        {
+          "text": "然后按销售金额降序排列。",
+          "ms": 6820
+        }
+      ],
+      "finals": [
+        {
+          "text": "请把选中的单元格加粗。",
+          "ms": 3656
+        },
+        {
+          "text": "然后按销售金额降序排列。",
+          "ms": 6948
+        }
+      ],
+      "connectMs": 1538,
+      "parameters": {
+        "format": "pcm",
+        "sample_rate": 16000,
+        "max_sentence_silence": 500,
+        "vad_model": "near_meeting_16k",
+        "intermediate_result_enabled": true,
+        "disfluency_removal_enabled": false
+      },
+      "readyMs": 1989,
+      "firstTextMs": 884,
+      "firstPartialMs": 884,
+      "afterFinishMs": 97,
+      "usage": {
+        "duration": 6,
+        "input_tokens": 245,
+        "output_tokens": 15,
+        "total_tokens": 260
+      },
+      "totalMs": 9269
+    },
+    {
+      "model": "qwen-audio-3.1-asr-flash-streaming",
+      "events": [
+        "task-started",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "task-finished"
+      ],
+      "partials": [
+        {
+          "text": "请",
+          "ms": 937
+        },
+        {
+          "text": "请把",
+          "ms": 1688
+        },
+        {
+          "text": "请把选中的带",
+          "ms": 2061
+        },
+        {
+          "text": "请把选中的单元格加",
+          "ms": 2870
+        },
+        {
+          "text": "然后",
+          "ms": 3911
+        },
+        {
+          "text": "然后按销售",
+          "ms": 4906
+        },
+        {
+          "text": "然后按销售金额降",
+          "ms": 5770
+        },
+        {
+          "text": "然后按销售金额降序排列",
+          "ms": 6541
+        }
+      ],
+      "finals": [
+        {
+          "text": "请把选中的单元格加粗。",
+          "ms": 3711
+        },
+        {
+          "text": "然后按销售金额降序排列。",
+          "ms": 7091
+        }
+      ],
+      "connectMs": 1422,
+      "parameters": {
+        "format": "pcm",
+        "sample_rate": 16000,
+        "max_sentence_silence": 500,
+        "vad_model": "near_meeting_16k"
+      },
+      "readyMs": 1812,
+      "firstTextMs": 937,
+      "firstPartialMs": 937,
+      "afterFinishMs": 239,
+      "usage": {
+        "duration": 6,
+        "input_tokens": 245,
+        "output_tokens": 15,
+        "total_tokens": 260
+      },
+      "totalMs": 9034
+    },
+    {
+      "model": "fun-asr-realtime-2026-02-28",
+      "events": [
+        "task-started",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "task-finished"
+      ],
+      "partials": [
+        {
+          "text": "请",
+          "ms": 932
+        },
+        {
+          "text": "请把序",
+          "ms": 1408
+        },
+        {
+          "text": "请把序中的单",
+          "ms": 1936
+        },
+        {
+          "text": "请把选中的单元格加",
+          "ms": 2746
+        },
+        {
+          "text": "P",
+          "ms": 3833
+        },
+        {
+          "text": "然后",
+          "ms": 4134
+        },
+        {
+          "text": "然后按销售",
+          "ms": 4888
+        },
+        {
+          "text": "然后按销售金额降序",
+          "ms": 5705
+        },
+        {
+          "text": "然后按销售金额降序排列",
+          "ms": 6526
+        }
+      ],
+      "finals": [
+        {
+          "text": "请把选中的单元格加粗。",
+          "ms": 3626
+        },
+        {
+          "text": "然后按销售金额降序排列。",
+          "ms": 6896
+        }
+      ],
+      "connectMs": 1346,
+      "parameters": {
+        "format": "pcm",
+        "sample_rate": 16000,
+        "max_sentence_silence": 500
+      },
+      "readyMs": 1698,
+      "firstTextMs": 932,
+      "firstPartialMs": 932,
+      "afterFinishMs": 14,
+      "usage": {
+        "duration": 6
+      },
+      "totalMs": 8928
+    },
+    {
+      "model": "paraformer-realtime-v2",
+      "events": [
+        "task-started",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "result-generated",
+        "task-finished"
+      ],
+      "partials": [
+        {
+          "text": "请把",
+          "ms": 1198
+        },
+        {
+          "text": "请把",
+          "ms": 2151
+        },
+        {
+          "text": "请把选中的",
+          "ms": 2512
+        },
+        {
+          "text": "请把选中的单元",
+          "ms": 2882
+        },
+        {
+          "text": "请把选中的单元格加",
+          "ms": 3313
+        },
+        {
+          "text": "然",
+          "ms": 3940
+        },
+        {
+          "text": "然后，",
+          "ms": 4737
+        },
+        {
+          "text": "然后按销",
+          "ms": 5266
+        },
+        {
+          "text": "然后按销售金",
+          "ms": 5711
+        },
+        {
+          "text": "然后按销售金额降",
+          "ms": 6243
+        }
+      ],
+      "finals": [
+        {
+          "text": "请把选中的单元格加粗。",
+          "ms": 3761
+        },
+        {
+          "text": "然后按销售金额降序排列。",
+          "ms": 7096
+        }
+      ],
+      "connectMs": 1379,
+      "parameters": {
+        "format": "pcm",
+        "sample_rate": 16000,
+        "max_sentence_silence": 500
+      },
+      "readyMs": 1758,
+      "firstTextMs": 1198,
+      "firstPartialMs": 1198,
+      "afterFinishMs": 226,
+      "usage": {
+        "duration": 6
+      },
+      "totalMs": 8993
+    }
+  ],
+  "fileBased": [
+    {
+      "model": "qwen-audio-3.1-asr-flash",
+      "totalMs": 7704,
+      "text": "请把选中的单元格加粗，然后按销售金额降序排列。",
+      "usage": {
+        "duration": 6,
+        "input_tokens": 135,
+        "output_tokens": 15,
+        "total_tokens": 150
+      }
+    },
+    {
+      "model": "qwen-audio-3.1-asr-flash-filetrans",
+      "uploadMs": 8032,
+      "processingAndPollingMs": 3883,
+      "totalMs": 11914,
+      "status": "SUCCEEDED",
+      "subtaskStatus": "SUCCEEDED",
+      "text": "请把选中的单元格加粗，然后按销售金额降序排列。",
+      "usage": {
+        "duration": 6,
+        "total_tokens": 155,
+        "output_tokens": 15,
+        "input_tokens": 140
+      }
+    }
+  ]
+}

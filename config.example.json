@@ -1,0 +1,22 @@
+{
+  "providers": {
+    "deepseek": {
+      "endpoint": "https://api.deepseek.com/v1",
+      "model": "deepseek-flash",
+      "apiKey": "YOUR_DEEPSEEK_API_KEY"
+    },
+    "qwen": {
+      "endpoint": "https://dashscope.aliyuncs.com/compatible-mode/v1",
+      "model": "qwen3.8-flash",
+      "apiKey": "YOUR_QWEN_API_KEY"
+    }
+  },
+  "asr": {
+    "provider": "qwen",
+    "model": "qwen-audio-3.1-asr-flash-message",
+    "streamingModel": "qwen-audio-3.1-asr-flash-streaming",
+    "fileModel": "qwen-audio-3.1-asr-flash-filetrans",
+    "shortAudioModel": "qwen-audio-3.1-asr-flash",
+    "endpoint": "wss://dashscope.aliyuncs.com/api-ws/v1/inference"
+  }
+}
